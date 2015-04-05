@@ -28,7 +28,8 @@ defmodule Plug.Mixfile do
      {:earmark, "~> 0.1", only: :docs},
      {:ex_doc, "~> 0.7", only: :docs},
      {:inch_ex, only: :docs},
-     {:hackney, "~> 0.13", only: :test}]
+     {:hackney, "~> 0.13", only: :test},
+     {:elli, "~> 1.0.3", github: "knutin/elli", optional: true}]
   end
 
   defp package do
